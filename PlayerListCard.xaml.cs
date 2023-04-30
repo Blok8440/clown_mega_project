@@ -16,28 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для PlayerListCard.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PlayerListCard : UserControl
     {
-        public MainWindow()
+        public PlayerListCard()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //code
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            //code
-        }
-
-        private void btn1_Click(object sender, RoutedEventArgs e)
-        {
-            lb_players.Items.Add(new PlayerListCard());
         }
     }
 }
