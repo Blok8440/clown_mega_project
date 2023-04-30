@@ -36,7 +36,7 @@ namespace how_to_pid
             }
             else
             {
-                SelfUserElement.Height = 200;
+                SelfUserElement.Height = 300;
                 SelfGrid.Width = 300;
                 SelfGrid.Height = 300;
             }
