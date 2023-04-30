@@ -44,5 +44,21 @@ namespace how_to_pid
                 SelfGrid.Height = 300;
             }
         }
+
+        private void Rect_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (SelfUserElement.Height == 200)
+            {
+                SelfUserElement.Height = 300;
+                SelfGrid.Width = 300;
+                SelfGrid.Height = 300;
+            }
+            else
+            {
+                SelfUserElement.Height = 200;
+                SelfGrid.Width = 300;
+                SelfGrid.Height = 300;
+            }
+        }
     }
 }

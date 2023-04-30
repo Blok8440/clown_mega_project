@@ -19,6 +19,7 @@
         <Button Content="Chto ya???" Margin="10,10,10,9.4" Grid.ColumnSpan="2"/>
         <Button x:Name="enlarge_btn" Content="Button" Margin="10,11,10,10" Grid.Row="1" Grid.Column="1" Click="enlarge_btn_Click"/>
         <Button Content="Button" Margin="10" Grid.Row="2" Grid.ColumnSpan="2"/>
+        <Rectangle x:Name="Rect" Fill="#00000000" Stroke="#00000000" Grid.ColumnSpan="2" Grid.RowSpan="3" MouseUp="Rect_MouseUp" Panel.ZIndex="-1"/>
 
     </Grid>
 </UserControl>
